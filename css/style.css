@@ -125,6 +125,9 @@ h1.main-title {
 .learn-more {
     padding: 1rem 2rem;
     color: white;
+    font-family: var(--Lato-Medium);
+    text-transform: uppercase;
+    background: var(--mild-blue);
 }
 
 .main-text {
