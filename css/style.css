@@ -23,7 +23,7 @@ body {
 }
 
 header {
-    height: 110vh;
+    height: 120vh;
     background: url('../img/1x/site-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -132,4 +132,11 @@ h1.main-title {
 
 .main-text {
     margin-bottom: 1.5rem;
+}
+
+.social-buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 4rem;
 }
