@@ -139,4 +139,14 @@ h1.main-title {
     flex-wrap: nowrap;
     justify-content: space-between;
     margin-top: 4rem;
+    width: 30%;
 }
+
+.fab {
+    color: var(--deep-blue);
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
