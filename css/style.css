@@ -22,6 +22,14 @@ body {
     font-family: var(--Lato-Regular);
 }
 
+header {
+    height: 110vh;
+    background: url('../img/1x/site-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 #nav-bar {
     position: sticky;
     top: 0;
@@ -51,6 +59,10 @@ a.nav-link.round-btn.text-uppercase {
     color: var(--deep-blue);
 }
 
+.mild-blue {
+    color: var(--mild-blue);
+}
+
 .text-uppercase {
     text-transform: uppercase;
 }
@@ -75,8 +87,12 @@ ul.navbar-nav.ml-auto li.nav-item a.nav-link {
     font-size: 1.2rem;
 }
 
+.navbar {
+    padding: 0rem;
+}
+
 .nav-bar {
-    padding: 1rem 2rem;
+    padding-top: 2rem;
 }
 
 .navbar-nav li a {
@@ -92,4 +108,25 @@ a.nav-link.round-btn.text-uppercase.get-started {
     padding-left: 2rem;
     padding-right: 2rem;
     color: white !important;
+}
+
+h1.main-title {
+    font-family: var(--Lato-Black);
+    font-size: 6rem;
+    color: var(--deep-blue);
+    padding-top: 4rem;
+}
+
+.subtitle {
+    font-family: var(--Lato-Black);
+    letter-spacing: 3px;
+}
+
+.learn-more {
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.main-text {
+    margin-bottom: 1.5rem;
 }
